@@ -2,11 +2,12 @@
 import './App.css';
 import './css/reset.css'
 import './css/style.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Aside from './components/Aside';
 import Header from './components/Header';
-import Projects from './components/Projects';
 import Section from './components/Section';
 import Footer from './components/Footer'
+import ProjectCarousel from './components/ProjectCarousel';
 
 function App() {
   return (
@@ -14,8 +15,7 @@ function App() {
       <Header />
       <Section />
       <Aside />
-
-      <Projects />
+      <ProjectCarousel />
       <Footer />
     </div>
   );

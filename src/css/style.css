@@ -60,6 +60,9 @@ aside{
     border-color: var(--aside);
 }
 
+.carousel-item img {
+    opacity: 25%;
+}
 
 #about{
     display: flex;

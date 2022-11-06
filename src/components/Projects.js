@@ -1,9 +1,7 @@
 import YoutubeEmbed from "./YoutubeEmbed"
 import weather from '../data/images/weather.png'
 import password from '../data/images/pwGenerator.png'
-// <YoutubeEmbed embedId="D47S-_KNm44" />
-// 
-// 
+
 function Projects(){
     return(
         <section id="projects">
