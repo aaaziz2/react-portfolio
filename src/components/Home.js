@@ -1,15 +1,11 @@
-import Aside from './Aside';
-import Header from './Header'
-import Section from './Section';
-import Footer from './Footer'
+import Section from './original/Section';
+import Footer from './original/Footer'
 import ProjectCarousel from './ProjectCarousel';
 
 function Home(){
     return (
         <>
-            <Header />
             <Section />
-            <Aside />
             <ProjectCarousel />
             <Footer />
         </>

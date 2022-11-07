@@ -1,4 +1,4 @@
-import profile from '../data/images/profile.jpg'
+import profile from '../../data/images/profile.jpg'
 
 function Aside() {
     return(

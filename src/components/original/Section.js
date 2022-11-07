@@ -1,4 +1,4 @@
-import banner from '../data/images/banner.jpg'
+import banner from '../../data/images/banner.jpg'
 
 function Section() { 
     return(
