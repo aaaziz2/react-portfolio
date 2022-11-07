@@ -18,12 +18,12 @@ function Navigation() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="about">About</Nav.Link>
+                <Nav.Link href="react-porfolio">Home</Nav.Link>
+                <Nav.Link href="react-porfolio/about">About</Nav.Link>
                 <NavDropdown title="Projects" id="basic-nav-dropdown">
-                <NavDropdown.Item href="password">Password Generator</NavDropdown.Item>
-                <NavDropdown.Item href="weather">Weather Dashboard</NavDropdown.Item>
-                <NavDropdown.Item href="team">Team Profile Generator</NavDropdown.Item>
+                <NavDropdown.Item href="react-porfolio/password">Password Generator</NavDropdown.Item>
+                <NavDropdown.Item href="react-porfolio/weather">Weather Dashboard</NavDropdown.Item>
+                <NavDropdown.Item href="react-porfolio/team">Team Profile Generator</NavDropdown.Item>
                 
                 </NavDropdown>
             </Nav>
@@ -32,16 +32,16 @@ function Navigation() {
         </Navbar>  
         <Routes>
             <Route path='react-porfolio' element={<Home />} />
-            <Route path='about' element={<About />} />
-            <Route path='password' element={<Project 
+            <Route path='react-porfolio/about' element={<About />} />
+            <Route path='react-porfolio/password' element={<Project 
                     title={"Password Generator"} 
                     href={"https://github.com/aaaziz2/passwordGenerator"} 
                     src={"https://aaaziz2.github.io/passwordGenerator/"}/>} />
-            <Route path='weather' element={<Project
+            <Route path='react-porfolio/weather' element={<Project
                     title={"Weather Dashboard"} 
                     href={"https://github.com/aaaziz2/weatherDashboard"} 
                     src={"https://aaaziz2.github.io/weatherDashboard/"}/>} />
-            <Route path='team' element={<Team />} />
+            <Route path='react-porfolio/team' element={<Team />} />
         </Routes> 
     </BrowserRouter>
   );
