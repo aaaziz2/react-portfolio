@@ -13,7 +13,7 @@ import Team from './projects/Team'
 function Navigation() {
   return (
     <BrowserRouter>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="blue" expand="lg">
         <Container>
             <Navbar.Brand>Aumio Aziz</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

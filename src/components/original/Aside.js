@@ -7,9 +7,8 @@ function Aside() {
             <div id="about">
                 <img id="profile" src={profile} alt="Aumio"></img>
                 <p>
-                    I am an aspiring Developer.<br></br>
-                    This is a rough draft of a potential Portfolio.<br></br>
-                    Hopefully I'll have some of these projects soon.<br></br>
+                    I am a Full Stack Developer.<br></br>
+                    This is my first Portfolio built in React.<br></br>
                     Future NU Coding Bootcamp Grad.
                 </p>
             </div>

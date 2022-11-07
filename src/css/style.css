@@ -21,10 +21,6 @@ a{
     text-decoration: none; 
 }
 
-body{
-    background-color: var(--body);
-}
-
 header{
     background-color: var(--header);
     display: flex;
@@ -63,7 +59,7 @@ aside{
 }
 
 .carousel-item img {
-    opacity: 25%;
+    opacity: 95%;
 }
 
 #about{
@@ -141,8 +137,8 @@ h3{
     width: 100%;
     position: absolute;
   }
-  
-  .proj{
+
+.proj{
     min-height: 500px;
     overflow: hidden;
     padding-bottom: 56.25%;
@@ -158,6 +154,23 @@ h3{
     position: absolute;
 }
 
+.navbar {
+    background: var(--body);
+}
+
+.carousel-caption{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background: rgba(0,0,0, .6);
+}
+
+.carousel-caption h3{
+    color: #fff;
+}
+
+.carousel-caption p {
+    color: #fff;
+}
 
 @media screen and (max-width: 992px) {
     .card {
@@ -166,10 +179,6 @@ h3{
     /* Change the header color */
     header {
       background: #D64933;
-    }
-    body{
-        color: #fff;
-        background: #0C7C59;
     }
     aside{
         background: #2B303A;
