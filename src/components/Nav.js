@@ -31,7 +31,7 @@ function Navigation() {
         </Container>
         </Navbar>  
         <Routes>
-            <Route path='' element={<Home />} />
+            <Route path='react-porfolio' element={<Home />} />
             <Route path='about' element={<About />} />
             <Route path='password' element={<Project 
                     title={"Password Generator"} 
