@@ -6,9 +6,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Home';
 import About from './About'
-import Password from './projects/Password';
-import Weather from './projects/Weather';
 import Team from './projects/Team'
+import Project from './projects/Project';
 
 function Navigation() {
   return (
@@ -34,8 +33,14 @@ function Navigation() {
         <Routes>
             <Route path='' element={<Home />} />
             <Route path='about' element={<About />} />
-            <Route path='password' element={<Password />} />
-            <Route path='weather' element={<Weather />} />
+            <Route path='password' element={<Project 
+                    title={"Password Generator"} 
+                    href={"https://github.com/aaaziz2/passwordGenerator"} 
+                    src={"https://aaaziz2.github.io/passwordGenerator/"}/>} />
+            <Route path='weather' element={<Project
+                    title={"Weather Dashboard"} 
+                    href={"https://github.com/aaaziz2/weatherDashboard"} 
+                    src={"https://aaaziz2.github.io/weatherDashboard/"}/>} />
             <Route path='team' element={<Team />} />
         </Routes> 
     </BrowserRouter>
