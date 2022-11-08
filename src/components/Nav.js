@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Home from './Home';
 import About from './About'
 import Team from './projects/Team'
@@ -11,7 +11,7 @@ import Project from './projects/Project';
 
 function Navigation() {
   return (
-    <HashRouter>
+    <>
         <Navbar bg="blue" expand="lg">
         <Container>
             <Navbar.Brand>Aumio Aziz</Navbar.Brand>
@@ -43,7 +43,7 @@ function Navigation() {
                     src={"https://aaaziz2.github.io/weatherDashboard/"}/>} />
             <Route path='team' element={<Team />} />
         </Routes> 
-    </HashRouter>
+        </>
   );
 }
 
