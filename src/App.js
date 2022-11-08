@@ -5,15 +5,12 @@ import './css/style.css'
 
 
 import Navigation from './components/Nav';
-import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter>
       <div className="App">
           <Navigation />
       </div>
-    </HashRouter>
   );
 }
 
