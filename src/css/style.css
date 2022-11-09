@@ -123,9 +123,18 @@ h3{
     font-size: 1.5rem;
 }
 
+.homepage{
+    padding: 2rem;
+    color: #fff;
+}
+
+.homepage h3 {
+    text-align: center;
+}
+
 .video-responsive {
     overflow: hidden;
-    padding-bottom: 56.25%;
+    padding-bottom: 50%;
     position: relative;
     height: 0;
   }
@@ -140,6 +149,7 @@ h3{
 
 .proj{
     /* min-height: 500px; */
+    text-align: center;
     overflow: hidden;
     /* position: relative; */
 
@@ -149,24 +159,6 @@ h3{
     left: 0;
     height: 500px;
     width: 100%;
-}
-
-.navbar {
-    background: var(--body);
-}
-
-.carousel-caption{
-    margin-top: 20%;
-    margin-bottom: 20%;
-    background: rgba(0,0,0, .6);
-}
-
-.carousel-caption h3{
-    color: #fff;
-}
-
-.carousel-caption p {
-    color: #fff;
 }
 
 @media screen and (max-width: 992px) {
