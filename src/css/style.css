@@ -161,6 +161,28 @@ h3{
     width: 100%;
 }
 
+.githublogo{
+    padding-top: 10px;
+    margin: auto;
+    width: 64px;
+    height: auto;
+}
+
+.resume{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.resume a {
+    background-color: #fff;
+    padding: 2px;
+    border: #2B303A solid 2px;
+}
+
+.contact{
+    padding-top: 20px;
+}
 @media screen and (max-width: 992px) {
     .card {
       width: 50%;

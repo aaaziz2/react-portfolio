@@ -7,9 +7,9 @@ import { Routes, Route, HashRouter } from 'react-router-dom'
 import Header from './components/menu/Header';
 import Home from './components/Home';
 import About from './components/About';
-import Project from './components/projects/Project';
-import Team from './components/projects/Team';
-
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Projects from './components/original/Projects'
 
 function App() {
   return (
@@ -20,18 +20,12 @@ function App() {
         <Routes>
           <Route path='' element={<Home />} />
           <Route path='about' element={<About />} />
-          <Route path='password' element={<Project 
-                    title={"Password Generator"} 
-                    href={"https://github.com/aaaziz2/passwordGenerator"} 
-                    src={"https://aaaziz2.github.io/passwordGenerator/"}/>} />
-            <Route path='weather' element={<Project
-                    title={"Weather Dashboard"} 
-                    href={"https://github.com/aaaziz2/weatherDashboard"} 
-                    src={"https://aaaziz2.github.io/weatherDashboard/"}/>} />
-            <Route path='team' element={<Team />} />
+          <Route path='resume' element={<Resume />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='portfolio' element={<Projects />} />
         </Routes>
       </HashRouter>
-  );
+  )
 }
 
 export default App;

@@ -8,15 +8,29 @@ export const menuItems = [
       url: 'about',
     },
     {
-        title: 'Password Generator',
-        url: 'password',
+      title: 'Portfolio',
+      url: 'portfolio',
     },
     {
-        title: 'Weather Dashboard',
-        url: 'weather',
+      title: 'Resume',
+      url: 'resume',
     },
     {
-        title: 'Team Profile Generator',
-        url: 'team',
+      title: 'Contact',
+      url: 'contact',
     },
+    
+
+    // {
+    //     title: 'Password Generator',
+    //     url: 'password',
+    // },
+    // {
+    //     title: 'Weather Dashboard',
+    //     url: 'weather',
+    // },
+    // {
+    //     title: 'Team Profile Generator',
+    //     url: 'team',
+    // },
   ];
