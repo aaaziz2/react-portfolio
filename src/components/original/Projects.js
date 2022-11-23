@@ -3,6 +3,7 @@ import weather from '../../data/images/weather.png'
 import password from '../../data/images/pwGenerator.png'
 import github from '../../data/images/github.png'
 import scheduler from '../../data/images/noonEvents.png'
+import foodie from '../../data/images/foodie.png'
 
 function Projects(){
     return(
@@ -10,6 +11,21 @@ function Projects(){
         <h2 class>Portfolio</h2>
                
         <div id="projectContainer">
+             <div class="card">
+                <a href="https://lala-foodiefinder.herokuapp.com/">
+                    <img src={foodie} alt="weather Dashboard"></img>
+                </a>
+                <br></br>
+                <h3>Foodie Finder</h3>
+                <p> <br></br>
+                Foodie Finder app helps you select whats for breakfast/lunch/dinner.
+                No more arguing with friends/family/significant others.
+                Let our robot overlords decide what we're eating
+                </p>
+                <a href="https://github.com/LALA-Chicago/LunchSelector"><img className="githublogo" alt="github" src={github}></img></a>
+            </div>
+            
+            
             <div class="card">
                 <YoutubeEmbed embedId="D47S-_KNm44" />
                 <br></br>
